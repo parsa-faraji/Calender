@@ -7,6 +7,8 @@
 
 #ifndef Calender_h
 #define Calender_h
+#include <iostream>
+using namespace std;
 
 class Calender {
     
@@ -16,9 +18,9 @@ public:
 private:
     string type;
     string getType();
-    string setType(string type);
+    void setType(string type);
     
-}
+};
 
 
 

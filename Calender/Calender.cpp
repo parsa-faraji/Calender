@@ -7,8 +7,15 @@
 
 #include <stdio.h>
 #include "Calender.h"
-#include <iostream>
-using namespace std;
+
 
 Calender::Calender(string type){
+}
+
+string Calender::getType(){
+    return type;
+}
+
+void Calender::setType(string type){
+    this->type = type;
 }
